@@ -48,5 +48,7 @@ class PeopleTableViewContoller: UIViewController, UITableViewDelegate, PSObserve
         theTable.insertRows(at: [IndexPath(row : index, section: 0)], with: .automatic)
         theTable.endUpdates()
     }
-
+    
+    @IBAction func unwindToPeople(segue: UIStoryboardSegue) {
+    }
 }

@@ -20,6 +20,7 @@ class AddViewController: UIViewController {
     
     @IBOutlet weak var addButton: UIButton!
     
+    
     @IBAction func addPerson(_ sender: Any) {
         let p = Person(firstName: firstNameField.text!, lastName: lastNameField.text!, profession: professionField.text!, department: departmentField.text!)
         

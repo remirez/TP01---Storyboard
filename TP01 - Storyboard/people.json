@@ -1,0 +1,32 @@
+[
+    {
+        "firstName": "Remy",
+        "lastName": "McConnell",
+        "profession": "Student",
+        "department": "IG"
+    },
+    {
+        "firstName": "Garira",
+        "lastName": "Moundi Mazou",
+        "profession": "Student",
+        "department": "IG"
+    },
+    {
+        "firstName": "Lucas",
+        "lastName": "Paulin",
+        "profession": "Student",
+        "department": "IG"
+    },
+    {
+        "firstName": "Adam",
+        "lastName": "Megherat",
+        "profession": "Student",
+        "department": "IG"
+    },
+    {
+        "firstName": "Valentin",
+        "lastName": "Guyon",
+        "profession": "Student",
+        "department": "IG"
+    }
+]
