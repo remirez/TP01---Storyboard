@@ -8,47 +8,45 @@
 
 import UIKit
 
-class PeopleTableViewContoller: UITableViewController {
-
-    @IBOutlet var theTable: UITableView!
+class PeopleTableViewContoller: UIViewController, UITableViewDelegate, PSObserver {
     
+
+    
+    @IBOutlet weak var theTable: UITableView!
     var setOfPeopleWhoAreHere : PersonSet = PersonSet()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.setOfPeopleWhoAreHere = PersonSet()
+        setOfPeopleWhoAreHere.observer = self
+        self.theTable.dataSource = setOfPeopleWhoAreHere
+        self.theTable.delegate = self
     }
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return setOfPeopleWhoAreHere.people.count
-    }
     
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ListItem", for: indexPath) as! PersonTableViewCell
-
-        cell.setPerson(person: setOfPeopleWhoAreHere.people[indexPath.row])
-
-        return cell
-    }
-    
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "People"
-    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
         if segue.identifier == "sendPerson" {
             if let nextC = segue.destination as? PeopleViewController {
                 let index = self.theTable.indexPathForSelectedRow
                 nextC.person = setOfPeopleWhoAreHere.people[index!.row]
             }
+        } else if segue.identifier == "addPerson"{
+            let successVC = segue.destination as! AddViewController
+            successVC.personSet = self.setOfPeopleWhoAreHere
         }
+ 
     }
+    
+    func add(index : Int) {
+        theTable.beginUpdates()
+        theTable.insertRows(at: [IndexPath(row : index, section: 0)], with: .automatic)
+        theTable.endUpdates()
+    }
+
 }

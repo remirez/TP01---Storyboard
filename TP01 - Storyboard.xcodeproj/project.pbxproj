@@ -21,6 +21,7 @@
 		109B766E23F2FB7100C9783B /* PeopleTableViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109B766D23F2FB7100C9783B /* PeopleTableViewContoller.swift */; };
 		109B767223F3065F00C9783B /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109B767123F3065F00C9783B /* PersonTableViewCell.swift */; };
 		10E60B1823F6F95400915DB9 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E60B1723F6F95400915DB9 /* AddViewController.swift */; };
+		C30385C023FACC790079B548 /* PSObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30385BF23FACC790079B548 /* PSObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		109B766D23F2FB7100C9783B /* PeopleTableViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTableViewContoller.swift; sourceTree = "<group>"; };
 		109B767123F3065F00C9783B /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		10E60B1723F6F95400915DB9 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		C30385BF23FACC790079B548 /* PSObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		10767E7923F2E08800A13D16 /* TP01 - Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				C30385BE23FACC630079B548 /* New Group */,
 				10F77D9723F6F48F006866FE /* View */,
 				10F77D9623F6F440006866FE /* Controller */,
 				10F77D9523F6F436006866FE /* Model */,
@@ -168,6 +171,14 @@
 				109B767123F3065F00C9783B /* PersonTableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C30385BE23FACC630079B548 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C30385BF23FACC790079B548 /* PSObserver.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30385C023FACC790079B548 /* PSObserver.swift in Sources */,
 				109B767223F3065F00C9783B /* PersonTableViewCell.swift in Sources */,
 				10793A9923F6E67200C8176F /* PeopleViewController.swift in Sources */,
 				10E60B1823F6F95400915DB9 /* AddViewController.swift in Sources */,

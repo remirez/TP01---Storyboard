@@ -9,6 +9,7 @@
 import UIKit
 
 class PersonTableViewCell: UITableViewCell {
+    
     @IBOutlet weak var firstName: UILabel!
     @IBOutlet weak var lastName: UILabel!
     
