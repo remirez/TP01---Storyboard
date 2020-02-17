@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100FF77123F6F5C3003107DC /* PersonSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100FF77023F6F5C3003107DC /* PersonSet.swift */; };
 		10767E7B23F2E08800A13D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10767E7A23F2E08800A13D16 /* AppDelegate.swift */; };
 		10767E7D23F2E08800A13D16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10767E7C23F2E08800A13D16 /* SceneDelegate.swift */; };
-		10767E7F23F2E08800A13D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10767E7E23F2E08800A13D16 /* ViewController.swift */; };
 		10767E8223F2E08800A13D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10767E8023F2E08800A13D16 /* Main.storyboard */; };
 		10767E8523F2E08800A13D16 /* TP01___Storyboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10767E8323F2E08800A13D16 /* TP01___Storyboard.xcdatamodeld */; };
 		10767E8723F2E08900A13D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10767E8623F2E08900A13D16 /* Assets.xcassets */; };
 		10767E8A23F2E08900A13D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10767E8823F2E08900A13D16 /* LaunchScreen.storyboard */; };
 		10767E9523F2E08900A13D16 /* TP01___StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10767E9423F2E08900A13D16 /* TP01___StoryboardTests.swift */; };
 		10767EA023F2E08A00A13D16 /* TP01___StoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10767E9F23F2E08A00A13D16 /* TP01___StoryboardUITests.swift */; };
+		10767EB123F2E25400A13D16 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10767EB023F2E25400A13D16 /* Person.swift */; };
+		10793A9923F6E67200C8176F /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10793A9823F6E67200C8176F /* PeopleViewController.swift */; };
+		109B766E23F2FB7100C9783B /* PeopleTableViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109B766D23F2FB7100C9783B /* PeopleTableViewContoller.swift */; };
+		109B767223F3065F00C9783B /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109B767123F3065F00C9783B /* PersonTableViewCell.swift */; };
+		10E60B1823F6F95400915DB9 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E60B1723F6F95400915DB9 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		100FF77023F6F5C3003107DC /* PersonSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSet.swift; sourceTree = "<group>"; };
 		10767E7723F2E08800A13D16 /* TP01 - Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TP01 - Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10767E7A23F2E08800A13D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10767E7C23F2E08800A13D16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		10767E7E23F2E08800A13D16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10767E8123F2E08800A13D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10767E8423F2E08800A13D16 /* TP01___Storyboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TP01___Storyboard.xcdatamodel"; sourceTree = "<group>"; };
 		10767E8623F2E08900A13D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,11 @@
 		10767E9B23F2E08900A13D16 /* TP01 - StoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TP01 - StoryboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10767E9F23F2E08A00A13D16 /* TP01___StoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TP01___StoryboardUITests.swift"; sourceTree = "<group>"; };
 		10767EA123F2E08A00A13D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10767EB023F2E25400A13D16 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		10793A9823F6E67200C8176F /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		109B766D23F2FB7100C9783B /* PeopleTableViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTableViewContoller.swift; sourceTree = "<group>"; };
+		109B767123F3065F00C9783B /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		10E60B1723F6F95400915DB9 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +111,11 @@
 		10767E7923F2E08800A13D16 /* TP01 - Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				10F77D9723F6F48F006866FE /* View */,
+				10F77D9623F6F440006866FE /* Controller */,
+				10F77D9523F6F436006866FE /* Model */,
 				10767E7A23F2E08800A13D16 /* AppDelegate.swift */,
 				10767E7C23F2E08800A13D16 /* SceneDelegate.swift */,
-				10767E7E23F2E08800A13D16 /* ViewController.swift */,
-				10767E8023F2E08800A13D16 /* Main.storyboard */,
 				10767E8623F2E08900A13D16 /* Assets.xcassets */,
 				10767E8823F2E08900A13D16 /* LaunchScreen.storyboard */,
 				10767E8B23F2E08900A13D16 /* Info.plist */,
@@ -129,6 +140,34 @@
 				10767EA123F2E08A00A13D16 /* Info.plist */,
 			);
 			path = "TP01 - StoryboardUITests";
+			sourceTree = "<group>";
+		};
+		10F77D9523F6F436006866FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10767EB023F2E25400A13D16 /* Person.swift */,
+				100FF77023F6F5C3003107DC /* PersonSet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10F77D9623F6F440006866FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				109B766D23F2FB7100C9783B /* PeopleTableViewContoller.swift */,
+				10793A9823F6E67200C8176F /* PeopleViewController.swift */,
+				10E60B1723F6F95400915DB9 /* AddViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		10F77D9723F6F48F006866FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10767E8023F2E08800A13D16 /* Main.storyboard */,
+				109B767123F3065F00C9783B /* PersonTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10767E7F23F2E08800A13D16 /* ViewController.swift in Sources */,
+				109B767223F3065F00C9783B /* PersonTableViewCell.swift in Sources */,
+				10793A9923F6E67200C8176F /* PeopleViewController.swift in Sources */,
+				10E60B1823F6F95400915DB9 /* AddViewController.swift in Sources */,
+				10767EB123F2E25400A13D16 /* Person.swift in Sources */,
 				10767E8523F2E08800A13D16 /* TP01___Storyboard.xcdatamodeld in Sources */,
 				10767E7B23F2E08800A13D16 /* AppDelegate.swift in Sources */,
+				100FF77123F6F5C3003107DC /* PersonSet.swift in Sources */,
+				109B766E23F2FB7100C9783B /* PeopleTableViewContoller.swift in Sources */,
 				10767E7D23F2E08800A13D16 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
